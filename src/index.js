@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
 import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const div = React.createElement('div', {
+  id: 'testId',
+  name: 'Olexander',
+  comments: 1000,
+  children: ['Hello ', 'world ', 'from Poland'],
+});
+
+ReactDOM.createRoot(document.getElementById('root')).render(div);
