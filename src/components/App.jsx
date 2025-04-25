@@ -11,7 +11,7 @@ import css from './App.module.css';
 export const App = () => {
   return (
     <div className={css.app}>
-      <h1>Goit-react-hw-01-components</h1>
+      <h1>React-Components-and-Styling_01</h1>
       <Profile
         username={user.username}
         tag={user.tag}
